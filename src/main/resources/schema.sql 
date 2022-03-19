@@ -1,0 +1,10 @@
+create table dbo.HOLIDAY 
+( id int not null,
+  created_date datetime2 not null,
+  extra nvarchar(255),
+   description nvarchar(255),
+    primary key (_id))
+
+ CREATE INDEX HOLIDAY_idx
+ ON HOLIDAY
+ ( id );
